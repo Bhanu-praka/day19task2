@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE ROTATE</title>
+    <style>
+        
+        #hello{
+            width:200px;
+            border-style: solid;
+       
+            transition: 2s all;
+          
+        }
+        img{
+            margin-top: 30px;
+            height: 120px;
+            width: 220px;
+        }
+        #hi{
+            width: 200px;
+            border-style:solid;
+            transition: 2s all;
+        }
+        #hi:hover+img{
+            transform:rotate(360deg);
+        }
+
+        #hello:hover+img{
+
+            transform:rotate(360deg);
+           
+        }
+        
+       
+    </style>
+</head>
+<body>
+       <div id="hello"> IMAGE ROTATE</div>
+ <img src="https://cms.eichertrucksandbuses.com/uploads/truck/sub-category/0cf0c6a0aba6a537ca9ffc0170ff5ef6.png"  width="100" height="100"> 
+ <div id="hi"> image 1</div>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDE4cJvMUaRNtQKS6pJCi7je2_72uwO5USw&usqp=CAU" width="100" height:100px>
+    
+</body>
+</html>
